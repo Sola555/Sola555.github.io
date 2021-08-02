@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<style>
+main{
+  padding: 50px solid purple;
+  /* margin: 30px solid red; */
+  border: 10px solid blue;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  padding-left: 2%;
+}
+</style>
+<main>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>How to play</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="avatar.png" rel="shortcut icon" type="image/png" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<style>
+  c{
+  font-family: "Courier New";
+  background-color: black;
+  color: white;
+
+
+}
+p1{
+  font-size: 200%;
+}
+</style>
+<div class="w3-container w3-blue">
+  <h2>Introduction on How To Play</h2>
+
+<button><h7><a href="https://oasis.paspro.repl.co">Back to Main page</a></h7></button>
+</div>
+
+<h1>Starting</h1>
+<p1>Once you have added the bot to your server, either in the server or in the DMs with you and the bot, say <c>,start</c>. This will set up all your data in our database which is actually just a simple text document that you can access with the <c>,txt</c> command, but you shouldn't need to access this file. </p1>
+<h1>Going to places</h1>
+<p1>You can go to many places by using the <c>,goto {place}</c> command. You can see all the places by using the <c>,places</c> command. The places command will give you the short names of each place. When using the <c>,goto</c> command, replace the {place} with the letter or set of letters that are given from the <c>,places</c> command. When you go to a place, you can unlock certain commands. Go to the <a href="Commands/index.html">commands section</a> to view usable commands for each place. It will also show you the goto command for that place. </p1>
+<h1>Objective of the game</h1>
+<p1>The objective of the game is to have a huge amount of many collectibles. You can see each collectible bellow.</p1>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 30px;
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+<p1 style="color:white";>Click on the buttons inside the tabbed menu:</p2>
+
+<div id="Coins" class="button tabcontent" style="background-color: 	#FFFF00;">
+  <h1 style="color:black"; >Coins</h1>
+  <p1 style="color:black";>You can get coins by working. Coins are used to pay to buy various items and various shops. You can gamble coins at the Casino.</p2>
+</div>
+
+<div id="Health" class="button tabcontent" style="background-color: 		#FFC0CB;">
+  <h1 style="color:red"; >Health</h1>
+  <p1 style="color:red";>There are two places where you can use commands to get healthier. One is the park, and the other is the sports and excersize center. </p2> 
+</div>
+
+<div id="Calories" class="button tabcontent"
+style="background-color: 	#FFD700;">
+  <h1 style="color:red"; >Calories</h1>
+  <p1 style="color:red";>You can get calories by buying and eating food. Buy food at the supermarket, or automatically get food in your calories inventory from the cafe or restaurant. To eat food bought from the supermarket, you must use the ,eat command. See more information about this command in the commands section</p2>
+</div>
+<div id="Rich Stats" class="button tabcontent"
+style="background-color: 	#FFFF00;">
+  <h1 style="color:black"; >Rich Stats</h1>
+  <p1 style="color:black";>Rich stats are stats that you can achieve when you buy something at the Jewelry shop. Use the ,jewelry command to view what jewelry you can buy!</p2>
+</div>
+<div id="Happiness" class="button tabcontent"
+style="background-color: 	#add8e6;">
+  <h1 style="color:blue"; >Happiness</h1>
+  <p1 style="color:blue";>The 2 main places you can achieve more happiness points are at the desires shop and the amazement park. At the desires shop, just say ,buy and anything you want, and you will get alot of happiness points. You can use various commands at the amazeent park to get happiness points, but keep in mind that you can also lose happiness points there!</p2>
+</div>
+
+
+<button class="button tablink" onclick="openCity('Coins', this, 'red')" id="defaultOpen">Coins</button>
+<button class="button tablink" onclick="openCity('Health', this, 'green')">Health</button>
+<button class="button tablink" onclick="openCity('Calories', this, 'blue')">Calories</button>
+<button class="button tablink" onclick="openCity('Rich Stats', this, 'orange')">Rich</button>
+<button class="button tablink" onclick="openCity('Happiness', this, 'purple')">Happiness</button>
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+<style>
+p1{
+  font-size: 150%;
+  color: black;
+}
+h1{
+  font-size: 200%;
+  color: black;
+}
+</style>
+
+<h1>Helpful commands that have a huge advantage</h1>
+<p1>In the world of Oasis, there are some commands that you can use to get so many things super easily. For example, the <c>,daily</c> command is a useful command that has no payment to use! The downside about this command is that you can only use it once per day. That means you have to wait 24 hours until you can use it again. This command is recomended for using because even though you can't use it as often, it gives you alot of things. There are commands like this that you can see in the <a href="Commands/index.html">commands section</a> of this website. Another useful command or rather place is the bank. The bank is way better than the bank in real life because there is a 1% interest rate for everyone daily! This means you gain 1% of the current mass of your bank account everyday! This allows you gain coins even if you're busy and not on discord! You will learn how to use the bank in the next section. </p1>
+
+<h1>
+  The Bank</h1>
+  <p1>The bank ,as mentioned in the previous section, is a great place to gain coins. You can go there by using the <c>,goto b</c> command! You can deposit your coins into your bank by using the <c>,deposit {amount}</c> command. Replace amount with the number of coins you want to deposit.</p1>
+
+
+<br><br>
+<a href="https://oasis.paspro.repl.co">
+<button><h2>Back to Main page</h2></button></a>
+
+
+
+
+  </main>
